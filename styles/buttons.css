@@ -1,0 +1,46 @@
+.buttonBig {
+  width: 296px;
+  height: 48px;
+  background-color: var(--color-brand-1);
+  border: none;
+  border: 2px solid var(--color-brand-1);
+  border-radius: 8px;
+  padding: 12px 50px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: var(--text-2);
+  line-height: 24px;
+  color: var(--color-grey-6);
+}
+.buttonBig:hover {
+  background-color: var(--color-brand-2);
+  border: 2px solid var(--color-brand-2);
+}
+.buttun-apply {
+  min-width: 150px;
+  height: 38px;
+  gap: 10px;
+  border: 2px solid var(--color-brand-1);
+  border-radius: 8px;
+  background: var(--color-brand-1);
+  font-weight: 500;
+  font-size: var(--text-2);
+  line-height: 24px;
+  color: var(--color-grey-6);
+}
+.buttun-apply:hover {
+  background-color: var(--color-brand-2);
+  border: 2px solid var(--color-brand-2);
+}
+.button-trash {
+  width: 44px;
+  height: 38px;
+  background-color: var(--color-grey-5);
+  border: 2px solid var(--color-grey-5);
+  border-radius: 8px;
+}
+.button-trash:hover {
+  background-color: var(--color-grey-3);
+  border: 2px solid var(--color-grey-3);
+  border-radius: 8px;
+}

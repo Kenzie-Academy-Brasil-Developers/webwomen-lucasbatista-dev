@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/groups.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+    <link rel="stylesheet" href="./styles/margins.css" />
+    <link rel="stylesheet" href="./styles/bgColor.css" />
+    <link rel="stylesheet" href="./styles/positioning.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+  </head>
+  <body class="bgColor1">
+    <div class="container-top"></div>     
+    <main class="container bgColor1 ">
+      <header class="container">
+        <div>
+          <img src="./assets/img/logo.svg" alt="logo Webwomen" />
+        </div>
+        <h1 class="h1-header">Lugar de mulher é onde ela quiser!</h1>
+        <div class="contains-top">
+          <p class="p1-header">
+            Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+          <p class="p1-header"> Ou até mesmo oportunidades para atender eventos de tecnologia no
+            Brasil e ao redor do mundo?</p>
+          </p>
+          <p class="p1-header m-top15 bold-600">Confere aqui embaixo o que temos pra você!</p>
+        </div>
+        <button class="buttonBig ">Ir para seção das vagas</button>
+      </div>
+      </header>
+      <div class="flex justify-evenly direction">
+        <section id="mainSection" class="flex column"> 
+          <h2 class="m-top32  p-left35">Vagas</h2>   
+          <ul class="m-top55 container-ul" id="jobsList">
+             
+          </ul>        
+        </section>
+        <aside id="mainAside" class="container-aside">         
+          <ul id="ulSelectedJobs">
+            <h2 class="p-left28 ">Vagas selecionadas</h2>            
+          </ul>
+        </aside>
+      </div>     
+    </main>
+    <script src="./scripts/jobsData.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/filters.js"></script>
+    <script src="./scripts/rendering.js"></script>
+    
+  </body>
+</html>
